@@ -3,10 +3,26 @@
 		<head>
 			<title>Todos Contra o Bullying</title>
 			<link href="style.css" rel="stylesheet" type="text/css">
+			<script src="script.js"></script>
 		</head>
-		<body bgcolor="#c4f7ff">
-			<div id="maislinksdiv">
-				<span id="maislinksbtn">Mais links</span>
+		<body>
+			<div id="topbardiv">
+				<span id="voltarbtn" onclick="FecharSaibaMais()">Voltar</span>
+				<span id="saibamaisbtn" onclick="AbrirSaibaMais()">Saiba mais</span>
+			</div>
+			<div id="SaibaMaisDiv" class="TabOpening">
+				<center><h4>Saiba mais</h4></center>
+				<div id="CategoryDiv">
+					<div>
+						<b id="Category">Sobre o bullying</b>
+						<hr>
+						<a href="https://likeclicker.reddit.com" target="_blank" id="SettingsOption">
+							<span>O que é o bullying?</span>
+						</a>
+				</div>
+			</div>
+			<div id="formdiv" class="TabOpening">
+				<iframe id="formframe" src="https://form.jotformz.com/81594427957674">
 			</div>
 		</body>
 	</html>

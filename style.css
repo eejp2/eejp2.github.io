@@ -1,16 +1,81 @@
 body {
 	margin: 0px;
+	background: #3b6aec;
+	font-family:'Arial';
 }
 
-#maislinksdiv {
+#topbardiv {
 	background-color: white;
 	height: 25px;
 	width: 100%;
 }
 
-#maislinksbtn {
+#saibamaisbtn {
 	float: right;
 	margin-right: 5px;
 	margin-top: 3px;
 	user-select: none;
+}
+
+#voltarbtn {
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px;
+	user-select: none;
+	visibility: hidden;
+	display: none;
+}
+
+#formframe {
+	height: 100%;
+	width: 99.7%;
+	border: none;
+}
+
+#formdiv {
+	height: 95.1vh;
+}
+
+#CategoryDiv {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 2px;
+}
+
+#Category {
+	padding-left: 5px;
+}
+
+#SettingsOption {
+	right: 20px;
+	top: 20px;
+	display: block;
+	padding: 5px 0;
+	border: 1px solid black;
+	z-index: 2;
+	cursor: pointer;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: #000;
+	transition: background 0.5s;
+	padding-left: 5px;
+	background: white;
+}
+
+#SaibaMaisDiv {
+	display: none;
+	visibility: hidden;
+}
+
+.TabOpening {
+	animation: opac 0.8s;
+}
+
+@keyframes opac {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
